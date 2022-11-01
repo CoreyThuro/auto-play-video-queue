@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 100vw;
+
+    display: grid;
+    grid-template-columns: 1.8fr 1.2fr;
+    gap: 1rem;
+
+    padding: .5rem 1rem;
+    text-transform: capitalize;
+}
+
+.main-video video {
+    width: 100%;
+    border-radius: .5rem ;
+}
+
+.video img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.video-playlist .videos {
+    height: 70%;
+    overflow-y: auto;
+}

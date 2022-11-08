@@ -43,7 +43,7 @@ let section = {
 data.forEach((video) => {
     let video_element = `
     <div class="video" data-id=${video.id}>
-    <img src="/assets/images/play.png" alt="">
+    <img src="/assets/images/play.png" alt="play-button">
     <h3 class="title">${video.title}</h3>
     <p class="time">${video.duration}</p>
 </div>`;

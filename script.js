@@ -73,8 +73,6 @@ videos.forEach(selected_video => {
         let match_video = data.find(video => video.id == main_video.id)
         let main_id_int = parseInt(main_video.id)
 
-        console.log(match_video)
-
         if(main_id_int >= data.length){
             main_video.id = 1;
         } else {
